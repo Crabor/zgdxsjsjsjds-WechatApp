@@ -1,0 +1,55 @@
+/* pages/choose/choose.wxss */
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #FFFFFF;  
+} 
+.swiper {
+  height: 500rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.secicon{
+  width:750rpx;
+  height:150rpx;
+  margin:0rpx 0 0 0rpx
+}
+.connect_icon{
+  width:65rpx;
+  height:65rpx;
+  margin:0rpx 0 0 30rpx;
+  z-index:-1;
+}
+@keyframes a{
+0% {
+-webkit-transform: translateX(-200rpx);
+transform: translateX(-200rpx);
+}
+100% {
+-webkit-transform: translateX(0rpx);
+transform: translateX(0rpx);
+}
+}
+@keyframes b{
+0% {
+-webkit-transform: translateX(200rpx);
+transform: translateX(200rpx);
+}
+100% {
+-webkit-transform: translateX(0rpx);
+transform: translateX(0rpx);
+}
+}
+@keyframes float{
+0% {
+-webkit-transform: translateY(-400rpx);
+transform: translateY(-400rpx);
+}
+100% {
+-webkit-transform: translateY(0rpx);
+transform: translateY(0rpx);
+}
+}

@@ -1,0 +1,10 @@
+<!--pages/detail/detail.wxml-->
+<image class="detail_top" src="../../res/images/detail_top.png"></image>
+<view class="userinfo">
+  <view class="userinfo-avatar">
+    <open-data  type="userAvatarUrl"></open-data>
+  </view>
+    <!--<open-data type="userNickName"></open-data>-->
+</view>
+<image class="test" src="../../res/images/test.png"></image>
+<image class="detail_float_dr" src="../../res/images/detail_float_dr.png"></image>

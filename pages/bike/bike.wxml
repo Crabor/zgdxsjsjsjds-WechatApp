@@ -1,0 +1,23 @@
+<!--pages/bike/bike.wxml-->
+<view>
+  <image class="bike" src="http://t1.aixinxi.net/o_1d840kja414r9107p1bnu1jq0uvra.png-w.jpg"></image>
+</view>
+
+<switch bindchange="switch1" class="switch1" />
+<view class="txt1">环形灯光</view>
+<view class="txt2">开启后会启用Nyx环形全彩灯光带</view>
+<view class="txt3">但可能会在夜间影响睡眠质量，请酌情开启</view>
+
+<view class="slider1">
+  <slider bindchange="slider1" min="10" max="70" step="1" show-value/>
+</view>
+<view class="txt4">消息提醒</view>
+<view class="txt5">3级：启用震动提醒，关闭LCD</view>
+
+<view class="slider2">
+  <slider bindchange="slider2" min="1" max="5" step="1" show-value/>
+</view>
+<view class="txt6">扫描速度</view>
+<view class="txt7">5级：Nyx可能会带来些许噪音</view>
+
+<view class="txt8" bindtap="upload">更新到设备</view>

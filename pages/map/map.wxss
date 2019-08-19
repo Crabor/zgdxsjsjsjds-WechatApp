@@ -1,0 +1,24 @@
+/* pages/index/index.wxss */
+.title{
+  width:50%;
+  height:85%;
+  margin:0px 0 0 22%
+}
+.loc{
+  width:11%;
+  height:100%;
+  margin:13px 0 0 4%
+}
+.search{
+  width:65%;
+  height:100%;
+  margin:13px 0 0 3%
+}
+.set{
+  width:11%;
+  height:100%;
+  margin:13px 0 0 3%
+}
+#map4select{
+  margin: 0px 0 0 0px
+}

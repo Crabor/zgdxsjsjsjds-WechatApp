@@ -1,0 +1,3 @@
+<!--pages/can/can.wxml-->
+<image class="backimg" src='../../res/images/back.jpg'/>
+<image class="frontimg" src='{{ip}}'/>

@@ -1,0 +1,151 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.6",
+	"appid": "wx45c10bce24e92799",
+	"projectname": "Nyx",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": 0,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": "1059"
+				},
+				{
+					"id": 1,
+					"name": "store",
+					"pathName": "pages/store/store",
+					"query": "",
+					"scene": "1059"
+				},
+				{
+					"id": -1,
+					"name": "ble",
+					"pathName": "pages/ble/ble",
+					"query": "",
+					"scene": "1059"
+				},
+				{
+					"id": -1,
+					"name": "bike",
+					"pathName": "pages/bike/bike",
+					"query": "",
+					"scene": "1059"
+				},
+				{
+					"id": -1,
+					"name": "lock",
+					"pathName": "pages/lock/lock",
+					"query": "",
+					"scene": "1059"
+				},
+				{
+					"id": 5,
+					"name": "bat",
+					"pathName": "pages/bat/bat",
+					"query": "",
+					"scene": "1059"
+				},
+				{
+					"id": -1,
+					"name": "health",
+					"pathName": "pages/health/health",
+					"query": "",
+					"scene": "1059"
+				},
+				{
+					"id": -1,
+					"name": "newdevice",
+					"pathName": "pages/newdevice/newdevice",
+					"query": ""
+				},
+				{
+					"id": 8,
+					"name": "map",
+					"pathName": "pages/map/map",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": "1059"
+				},
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "bat",
+					"pathName": "pages/bat/bat",
+					"query": "",
+					"scene": "1059"
+				},
+				{
+					"id": -1,
+					"name": "code",
+					"pathName": "pages/code/code",
+					"query": "",
+					"scene": "1059"
+				},
+				{
+					"id": -1,
+					"name": "rr",
+					"pathName": "pages/code/code",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "code",
+					"pathName": "pages/code/code",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "store",
+					"pathName": "pages/store/store",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "detail",
+					"pathName": "pages/detail/detail",
+					"query": ""
+				}
+			]
+		}
+	}
+}

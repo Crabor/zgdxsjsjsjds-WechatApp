@@ -1,0 +1,3 @@
+<input animation='{{animation_name}}' bindinput='bindinput_name' class="nameinput" maxlength='11' confirm-type='done' placeholder='点击输入用户名' style='top: {{con_y/12}}px; font-size:{{(con_x-140)/7}}px'/>
+<input animation='{{animation_key}}' bindinput='bindinput_key' class="keyinput" type="number" maxlength='11' confirm-type='done' placeholder='请点击输入密码' style='top: {{con_y/12+1400}}px;font-size:{{(con_x-140)/7}}px'/>
+<button class='login_pre_button' bindtap='breakoutpage'>临时登陆</button>

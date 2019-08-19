@@ -1,0 +1,34 @@
+/* pages/code/code.wxss */
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #FFFFFF;
+} 
+.login_pre_button{
+  position: fixed;
+  bottom:100rpx;
+  left:280rpx;
+  background-color:rgb(255, 255, 255);
+  color:#000000;
+}
+.keyinput{
+  position: fixed;
+  height: 200rpx;
+  left: 70px;
+}
+.nameinput{
+  position: fixed;
+  height: 200rpx;
+  left: 70px;
+}
+
+@keyframes a{
+0% {
+-webkit-transform: translateY(100rpx);
+transform: translateY(100rpx);
+}
+100% {
+-webkit-transform: translateY(0rpx);
+transform: translateY(0rpx);
+}
+}

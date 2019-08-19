@@ -1,0 +1,90 @@
+/* pages/bat/bat.wxss */
+.dockback{
+  position: fixed;
+  bottom:0rpx;
+  left:0rpx;
+  z-index:-1;
+}
+.dockback_up{
+  position: fixed;
+  top:0rpx;
+  left:0rpx;
+  z-index:-1;
+}
+.dock{
+  position: fixed;
+  left:0rpx;
+  z-index:-1;
+}
+.cycle_r{
+  position:fixed;
+  left:45rpx;
+  top:120rpx;
+  width:300rpx;
+  height: 300rpx;
+}
+
+.mobike{
+  position:fixed;
+  top:100rpx;
+  right:40rpx;
+  width:120rpx;
+  height:120rpx;
+}
+.iphone{
+  position:fixed;
+  top:300rpx;
+  right:35rpx;
+  width:120rpx;
+  height:120rpx;
+}
+.texta{
+  color: white;
+  font-size: 40rpx;
+  position:fixed;
+  top:110rpx;
+  right:170rpx;
+}
+.textb{
+  color: white;
+  font-size: 40rpx;
+  position:fixed;
+  top:310rpx;
+  right:170rpx;
+}
+
+.cycle_b{
+  position:fixed;
+  left:45rpx;
+  bottom:145rpx;
+  width:300rpx;
+  height: 300rpx;
+}
+.recycle{
+  position:fixed;
+  bottom:350rpx;
+  right:60rpx;
+  width:100rpx;
+  height:100rpx;
+}
+.temp{
+  position:fixed;
+  bottom:150rpx;
+  right:60rpx;
+  width:100rpx;
+  height:100rpx;
+}
+.textc{
+  color: black;
+  font-size: 40rpx;
+  position:fixed;
+  bottom:340rpx;
+  right:170rpx;
+}
+.textd{
+  color: black;
+  font-size: 40rpx;
+  position:fixed;
+  bottom:145rpx;
+  right:170rpx;
+}

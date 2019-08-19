@@ -1,0 +1,137 @@
+/* pages/ble/ble.wxss */
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color:#1296DB;  
+} 
+
+.userinfo {
+  position: fixed;
+  width: 750rpx;
+  height: 320rpx;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  left:50rpx;
+}
+ 
+.userinfo-avatar {
+  overflow:hidden;
+  position: fixed;
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+  margin-top: 50rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.point{
+  position:fixed;
+  font-size: 50rpx;
+  top: 100rpx;  
+  left: 320rpx; 
+  color: #303030;
+}
+
+.wave1{
+  position: fixed;
+  opacity:0.5;
+  width:2000rpx;
+  height:500rpx;
+  top:50rpx;
+  animation : wave1 10s linear infinite;
+}
+.wave2{
+  position: fixed;
+  opacity:0.5;
+  width:2000rpx;
+  height:500rpx;
+  top:70rpx;
+  animation : wave2 6s linear infinite;
+}
+.wave3{
+  position: fixed;
+  opacity:0.5;
+  width:2000rpx;
+  height:500rpx;
+  top:70rpx;
+  animation : wave3 20s linear infinite;
+}
+.white{
+  position:fixed;
+  width:700rpx;
+  height:220rpx;
+}
+
+.white2{
+  position:fixed;
+  opacity: 0.5;
+  width:520rpx;
+  height:100rpx;
+  right:0rpx;
+}
+
+.up{
+  position:fixed;
+  width:660rpx;
+  right:40rpx;
+  top:380rpx;
+}
+
+.updis{
+  position:fixed;
+  font-size: 40rpx;
+  top:430rpx;
+  left:110rpx;
+  color:#606060;
+}
+
+.updis_image{
+  position:fixed;
+  top:395rpx;
+  right:55rpx;
+  width:630rpx;
+}
+
+.txt{
+  position:fixed;
+  font-size: 40rpx;
+  right:40rpx;
+  color:#FFFFFF;
+}
+
+@keyframes wave1{
+0% {
+-webkit-transform: translate(-160rpx , 0rpx);
+transform: translate(-160rpx , 0rpx);
+}
+to {
+-webkit-transform: translate(-640rpx , 0rpx);
+transform: translate(-640rpx , 0rpx);
+}
+}
+
+@keyframes wave2{
+0% {
+-webkit-transform: translate(-1000rpx , 0rpx);
+transform: translate(-1000rpx , 0rpx);
+}
+to {
+-webkit-transform: translate(-620rpx , 0rpx);
+transform: translate(-620rpx , 0rpx);
+}
+}
+
+@keyframes wave3{
+0% {
+-webkit-transform: translate(-160rpx , 0rpx);
+transform: translate(-160rpx , 0rpx);
+}
+to {
+-webkit-transform: translate(-450rpx , 0rpx);
+transform: translate(-450rpx , 0rpx);
+}
+}

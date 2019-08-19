@@ -1,0 +1,33 @@
+<!--pages/ble/ble.wxml-->
+<!--<image class="dw_y" src="../../res/images/dw_y.png" style="width:{{con_x}}px;height:{{con_y}}px"></image>-->
+<view class="userinfo">
+  <view class="userinfo-avatar">
+    <open-data  type="userAvatarUrl"></open-data>
+  </view>
+    <!--<open-data type="userNickName"></open-data>-->
+</view>
+
+<image class="white2" style="top:500rpx" src="../../res/images/white.png"></image>
+<image class="white2" style="top:700rpx" src="../../res/images/white.png"></image>
+<image class="white2" style="top:900rpx" src="../../res/images/white.png"></image>
+
+<view>
+  <image class="wave3" src="../../res/images/wave1.png"></image>
+  <image class="wave2" src="../../res/images/wave2.png"></image>
+  <image class="wave1" src="../../res/images/wave3.png"></image>
+</view>
+
+<text class="point">剩余空间 {{point}}</text>
+
+<text class="txt" bindtap='tap_a' style="top:520rpx">消息推送设置</text>
+<text class="txt" bindtap='tap_b' style="top:620rpx">个性化设置</text>
+<text class="txt" bindtap='tap_c' style="top:720rpx">亲属设备绑定</text>
+<text class="txt" bindtap='tap_d' style="top:820rpx">服务充值</text>
+<text class="txt" bindtap='out' style="top:920rpx">退出登录</text>
+
+<text class="txt" bindtap='tap_e' style="top:1020rpx">测试</text>
+
+<image class="up" style="opacity: {{opa}};height:{{hei}}rpx" src="../../res/images/white.png"></image>
+<text class="updis" bindtap='close'>{{uptxt}}</text>
+
+<image class="updis_image" style="opacity: {{opa}};height:{{hei2}}rpx" bindtap='close' src="{{imagesrc}}"></image>

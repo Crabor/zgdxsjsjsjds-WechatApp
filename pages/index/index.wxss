@@ -1,0 +1,13 @@
+/* pages/main/main.wxss */
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #FFF; 
+} 
+.body{
+  width:1200rpx;
+  height:900rpx;
+  position:fixed;
+  top:170rpx;
+  left:-220rpx;
+}

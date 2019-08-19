@@ -1,0 +1,6 @@
+<!--pages/newdevice/newdevice.wxml-->
+<view style="text-align: center;">
+  <image bindtap = "click_s" class="scan_circle" src="../../res/images/scan_circle.png" animation="{{moveData1}}"></image>
+  <image bindtap = "click_s" class="scan_camera" src="../../res/images/camera.png" animation="{{moveData2}}"></image>
+    <text class="text">\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nP系列请长按机身按键后\n扫描屏幕上显示的条形码\n\nS系列请扫描包装盒上的\n二维码或设备底部条形码</text>
+</view>

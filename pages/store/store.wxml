@@ -1,0 +1,39 @@
+<!--store/store.wxml-->
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+  <block wx:for="{{movies}}" wx:for-index="index">  
+    <swiper-item>  
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+    </swiper-item>  
+  </block>  
+</swiper>
+
+<!--<view class="free-panel-title">精选应用</view>-->
+<view class="free-WaterfallFlow">
+  <block>
+    <!-- <view class="flex-wrap" wx:for="{{images}}" wx:key='{{item.src}}' 
+    wx:if="{{item.id%2!=''}}">
+      <image mode="widthFix" src="{{item.src}}"></image>
+      <view>{{item.name}}</view>
+      <view>{{item.data}}</view>
+    </view> -->
+    <view class="flex-wrap" wx:for="{{items}}" wx:key='{{item.url}}'>
+      <image mode="widthFix" src="{{item.url}}"></image>
+      <!--<view>{{item.name}}</view>-->
+      <image class='button-status' id="{{item.id}}" wx:if="{{item.status==1}}" bindtap="useApp" src='../../res/images/store_button_use.png'></image>
+      <image class='button-status' id="{{item.id}}" wx:elif="{{item.status==0}}" bindtap="newApp" src='../../res/images/store_button_new.png'></image>
+      <image class='button-status' wx:else src='../../res/images/store_button_wait.png'></image>
+    </view>
+  </block>
+  <!--
+  <block>
+    <view class="flex-wrap" wx:for="{{items}}" wx:key='{{item.url}}'>
+      <image mode="widthFix" src="../../res/images/AppMore.png"></image>
+    </view>
+  </block>
+  <block>
+    <view class="flex-wrap" wx:for="{{items}}" wx:key='{{item.url}}'>
+      <image mode="widthFix" src="../../res/images/AppMore.png"></image>
+    </view>
+  </block>
+  -->
+</view>

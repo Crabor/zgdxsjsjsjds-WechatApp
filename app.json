@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map",
+    "pages/choose/choose",
+    "pages/ble/ble",
+    "pages/newdevice/newdevice",
+    "pages/bike/bike",
+    "pages/bat/bat",
+    "pages/code/code",
+    "pages/store/store",
+    "pages/detail/detail",
+    "pages/can/can"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "N Y X 摇 光",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/choose/choose",
+        "text": "社区",
+        "iconPath": "res/images/dock_hom.png",
+        "selectedIconPath": "res/images/dock_hom.png"
+      },
+      {
+        "pagePath": "pages/detail/detail",
+        "text": "报告",
+        "iconPath": "res/images/dock_lis.png",
+        "selectedIconPath": "res/images/dock_lis.png"
+      },
+      {
+        "pagePath": "pages/store/store",
+        "text": "商城",
+        "iconPath": "res/images/dock_app.png",
+        "selectedIconPath": "res/images/dock_app.png"
+      },
+      {
+        "pagePath": "pages/ble/ble",
+        "text": "我的",
+        "iconPath": "res/images/dock_cof.png",
+        "selectedIconPath": "res/images/dock_cof.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

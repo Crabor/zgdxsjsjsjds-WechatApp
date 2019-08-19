@@ -1,0 +1,68 @@
+/* pages/detail/detail.wxss */
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color:#1296DB;  
+} 
+
+.userinfo {
+  position: fixed;
+  width: 750rpx;
+  height: 320rpx;
+  color: #fff;
+  flex-direction: column;
+  left:270rpx;
+  top:0rpx;
+}
+ 
+.userinfo-avatar {
+  overflow:hidden;
+  position: fixed;
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+  margin-top: 50rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.detail_top{
+  position: fixed;
+  width:100%;
+  height:500rpx;
+  top:-200rpx;
+  animation : wave1 10s linear infinite;
+}
+
+.detail_float_dr{
+  position: fixed;
+  width:300rpx;
+  height:400rpx;
+  bottom:-60rpx;
+  animation : float_ani 3s infinite;
+}
+
+@keyframes float_ani{
+0% {
+-webkit-transform: translate(0rpx , 0rpx);
+transform: translate(0rpx , 0rpx);
+}
+50% {
+-webkit-transform: translate(0rpx , 30rpx);
+transform: translate(0rpx , 30rpx);
+}
+to {
+-webkit-transform: translate(0rpx , 0rpx);
+transform: translate(0rpx , 0rpx);
+}
+}
+
+.test{
+  position: fixed;
+  width:100%;
+  height:120%;
+  top:-100rpx;
+  animation : wave1 10s linear infinite;
+}

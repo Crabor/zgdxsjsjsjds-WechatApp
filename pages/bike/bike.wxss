@@ -1,0 +1,109 @@
+/* pages/bike/bike.wxss */
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #303030;  
+} 
+.bike{
+  position: fixed;
+  opacity:1;
+  width:300rpx;
+  height:300rpx;
+  top: 100rpx;
+  left: 220rpx;
+}
+.switch1{
+  position: fixed;
+  top:470rpx;
+  left:200rpx;
+  animation : a 1s;
+}
+.txt1{
+  position: fixed;
+  font-size:50rpx;
+  color:white;
+  top:470rpx;
+  left:330rpx;
+  animation : a 1s;
+}
+.txt2{
+  position: fixed;
+  font-size:20rpx;
+  color:gainsboro;
+  top:550rpx;
+  left:200rpx;
+  animation : a 1s;
+}
+.txt3{
+  position: fixed;
+  font-size:20rpx;
+  color:gainsboro;
+  top:580rpx;
+  left:200rpx;
+  animation : a 1s;
+}
+.txt4{
+  position: fixed;
+  font-size:50rpx;
+  color:white;
+  top:660rpx;
+  left:280rpx;
+  animation : a 1s;
+}
+.slider1{
+  position: fixed;
+  top:760rpx;
+  left:100rpx;
+  width:80%;
+  animation : a 1s;
+}
+
+.txt5{
+  position: fixed;
+  font-size:20rpx;
+  color:gainsboro;
+  top:730rpx;
+  left:250rpx;
+  animation : a 1s;
+}
+
+.txt6{
+  position: fixed;
+  font-size:50rpx;
+  color:white;
+  top:830rpx;
+  left:280rpx;
+  animation : a 1s;
+}
+.slider2{
+  position: fixed;
+  top:935rpx;
+  left:100rpx;
+  width:80%;
+}
+.txt7{
+  position: fixed;
+  font-size:20rpx;
+  color:gainsboro;
+  top:900rpx;
+  left:250rpx;
+  animation : a 1s;
+}
+.txt8{
+  position: fixed;
+  font-size:40rpx;
+  color:wheat;
+  bottom:20rpx;
+  left:275rpx;
+  animation : a 1s;
+}
+@keyframes a{
+0% {
+-webkit-transform: scale(0);
+transform: scale(0);
+}
+to {
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+}

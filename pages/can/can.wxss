@@ -1,0 +1,18 @@
+/* pages/can/can.wxss */
+.backimg{
+  height : 100%;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.frontimg{
+  width:140%;
+  height:46%;
+  position:absolute;
+  transform:rotate(90deg);
+  top:42%;
+  left:-19%
+}

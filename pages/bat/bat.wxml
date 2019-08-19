@@ -1,0 +1,25 @@
+<image class="dock" src="http://nyxplanet-ui.stor.sinaapp.com/wechatapp/dock.gif" style="width:{{con_x}}px;height:50px;bottom:{{con_y/2-25}}px"></image>
+<image class="dockback" src="../../res/images/dockback.png" style="width:{{con_x}}px;height:{{con_y/2-24}}px"></image>
+<image class="dockback_up" src="../../res/images/dockback_up.png" style="width:{{con_x}}px;height:{{con_y/2-24}}px"></image>
+
+<text style="color:white;position:fixed;top:175rpx;left:120rpx;font-size:100rpx;">{{bat}}</text>
+<text style="color:white;position:fixed;top:300rpx;left:120rpx;font-size:40rpx;color:#606060">NIGHT</text>
+
+<image class="cycle_r" src="../../res/images/cycle_r.png"></image>
+
+<image class="iphone" src="../../res/images/iphone.png"></image>
+<image class="mobike" src="../../res/images/mobike.png"></image>
+
+<text class="texta">踢被子\n{{bat/4}}次</text>
+<text class="textb">深睡时长\n{{bat/20}}H</text>
+
+<text style="color:black;position:fixed;bottom:240rpx;left:120rpx;font-size:100rpx;">{{health}}</text>
+<text style="position:fixed;bottom:200rpx;left:120rpx;font-size:40rpx;color:#606060">D A Y</text>
+
+<image class="cycle_b" src="../../res/images/cycle_b.png"></image>
+
+<image class="recycle" src="../../res/images/recycle.png"></image>
+<image class="temp" src="../../res/images/temp.png"></image>
+
+<text class="textc">小睡\n{{cycle}}次</text>
+<text class="textd">平均体温\n{{temp}}摄氏度</text>

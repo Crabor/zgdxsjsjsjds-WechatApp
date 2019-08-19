@@ -1,0 +1,43 @@
+/* store/store.wxss */
+.swiper {
+  height: 135rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.free-WaterfallFlow{
+  width:99%;
+  column-count:1;/*列数：*/
+}
+.free-WaterfallFlow .flex-wrap{
+  display: inline-block;
+  width:98%;
+  margin-bottom:8%;
+  border:0px solid #FFF;
+  padding:2%;
+  padding-top:5%;
+  margin-right:2%;
+  box-shadow: 0 0px 0px rgba(34, 25, 25, 0.1);
+  text-align: center;
+}
+.flex-wrap image{
+  width:100%;
+  margin:0 auto;
+}
+.flex-wrap view:nth-child(2){
+  font-size:15px;
+  padding:2% 0;
+  color:#FFF;
+}
+.flex-wrap view:nth-child(3){
+  font-size:13px;
+  padding:2% 0;
+  color:#FFF;
+  text-align: right;
+}
+.button-status{
+  height:70px;
+  width:10px
+}

@@ -1,0 +1,14 @@
+<image src="../../res/images/ble.png" class="connect_icon" bindtap="click_connect"></image>
+
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+  <block wx:for="{{movies}}" wx:for-index="index">  
+    <swiper-item>  
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+    </swiper-item>  
+  </block>  
+</swiper>
+
+<image style="animation:a 1s" class="secicon" src="http://honeycomb-ui.stor.sinaapp.com/choose_device.jpg" bindtap="click_bd"></image>
+<image style="animation:b 1s" class="secicon" src="http://honeycomb-ui.stor.sinaapp.com/choose_shop.jpg" bindtap="click_shop"></image>
+<image style="animation:a 1s" class="secicon" src="http://honeycomb-ui.stor.sinaapp.com/choose_ins.jpg" bindtap="click_ins"></image>
+<image style="animation:b 1s" class="secicon" src="http://honeycomb-ui.stor.sinaapp.com/choose_us.jpg" bindtap="click_us"></image>

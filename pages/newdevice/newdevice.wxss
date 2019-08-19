@@ -1,0 +1,52 @@
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color:#FF4C0F;  
+} 
+.scan_circle{
+  position: fixed;
+  /*opacity:0.5;*/
+  width:3000rpx;
+  height:3000rpx;
+  margin:-1000rpx 0 0 -1500rpx;
+}
+
+.scan_camera{
+  position: fixed;
+  /*opacity:0.5;*/
+  width:50rpx;
+  height:50rpx;
+  margin:475rpx 0 0 -25rpx;
+}
+
+.text{
+  postion:absolute;
+  color:#C0C0C0;
+  font-size:15px;
+}
+
+@keyframes a{
+0% {
+-webkit-transform: scale(10);
+transform: scale(10);
+}
+to {
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+}
+
+@keyframes b{
+0% {
+-webkit-transform: scale(0);
+transform: scale(0);
+}
+50% {
+-webkit-transform: scale(0);
+transform: scale(0);
+}
+to{
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+}
